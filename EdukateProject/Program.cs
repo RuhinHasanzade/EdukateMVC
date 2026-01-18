@@ -1,3 +1,8 @@
+using EdukateProject.Context;
+using EdukateProject.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+
 namespace EdukateProject
 {
     public class Program
@@ -8,6 +13,17 @@ namespace EdukateProject
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<AppDbContext>(opt =>
+            {
+                opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
+            });
+
+            builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+            {
+
+            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+
 
             var app = builder.Build();
 
