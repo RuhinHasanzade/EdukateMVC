@@ -82,6 +82,15 @@
                         </div>
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a asp-action="Logout" asp-controller = "Auth" class="nav-item nav-link">@User.Identity.Name</a>
+                    }else
+                    {
+                        <a asp-action="Login" asp-controller="Auth" class="nav-item nav-link">Login</a>
+                        <a asp-action="Register" asp-controller="Auth" class="nav-item nav-link">Register</a>
+                    }
                 </div>
                 <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Join Us</a>
             </div>

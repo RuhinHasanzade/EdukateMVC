@@ -1,13 +1,15 @@
 using EdukateProject.Context;
+using EdukateProject.Helpers;
 using EdukateProject.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace EdukateProject
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -23,9 +25,16 @@ namespace EdukateProject
 
             }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
+            builder.Services.AddScoped<DbContextInitalizer>();
 
 
             var app = builder.Build();
+
+            var scope = app.Services.CreateScope();
+
+            var initalizer = scope.ServiceProvider.GetRequiredService<DbContextInitalizer>();
+
+            await initalizer.InitDatabase();
 
 
 
@@ -42,6 +51,7 @@ namespace EdukateProject
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             
