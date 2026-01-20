@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EdukateProject.Areas.Admin.Controllers;
 [Area("Admin")]
-[Authorize(Roles = "Admin")]
+//[Authorize(Roles = "Admin")]
 
 public class DashboardController : Controller
 {
