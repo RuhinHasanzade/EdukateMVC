@@ -166,47 +166,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\Areas\\Admin\\Views\\Course\\Update.cshtml",
-              "RelativeDocumentMoniker": "EdukateProject\\Areas\\Admin\\Views\\Course\\Update.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\Areas\\Admin\\Views\\Course\\Update.cshtml",
-              "RelativeToolTip": "EdukateProject\\Areas\\Admin\\Views\\Course\\Update.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-20T14:18:18.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CourseUpdateVm.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\ViewModels\\CourseViewModels\\CourseUpdateVm.cs",
-              "RelativeDocumentMoniker": "EdukateProject\\ViewModels\\CourseViewModels\\CourseUpdateVm.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\ViewModels\\CourseViewModels\\CourseUpdateVm.cs",
-              "RelativeToolTip": "EdukateProject\\ViewModels\\CourseViewModels\\CourseUpdateVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T14:14:55.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\Areas\\Admin\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "EdukateProject\\Areas\\Admin\\Controllers\\CourseController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\Areas\\Admin\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "EdukateProject\\Areas\\Admin\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAwwKwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T07:32:40.675Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 8,
@@ -217,8 +178,7 @@
               "RelativeToolTip": "EdukateProject\\ViewModels\\CourseViewModels\\CourseCreateVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T07:58:46.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T07:58:46.064Z"
             },
             {
               "$type": "Document",
@@ -230,8 +190,7 @@
               "RelativeToolTip": "EdukateProject\\Areas\\Admin\\Views\\Course\\Create.cshtml",
               "ViewState": "AgIAAB0AAAAAAAAAAAAYwDkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-19T07:58:02.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T07:58:02.464Z"
             },
             {
               "$type": "Document",
@@ -243,8 +202,7 @@
               "RelativeToolTip": "EdukateProject\\Areas\\Admin\\Views\\Course\\Index.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAACUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-19T07:33:16.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T07:33:16.76Z"
             },
             {
               "$type": "Document",
@@ -320,6 +278,55 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\Program.cs",
+              "RelativeDocumentMoniker": "EdukateProject\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\Program.cs",
+              "RelativeToolTip": "EdukateProject\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T19:48:07.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\Areas\\Admin\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "EdukateProject\\Areas\\Admin\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\Areas\\Admin\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "EdukateProject\\Areas\\Admin\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAwwKwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T07:32:40.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CourseUpdateVm.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\ViewModels\\CourseViewModels\\CourseUpdateVm.cs",
+              "RelativeDocumentMoniker": "EdukateProject\\ViewModels\\CourseViewModels\\CourseUpdateVm.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\ViewModels\\CourseViewModels\\CourseUpdateVm.cs",
+              "RelativeToolTip": "EdukateProject\\ViewModels\\CourseViewModels\\CourseUpdateVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T14:14:55.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\Areas\\Admin\\Views\\Course\\Update.cshtml",
+              "RelativeDocumentMoniker": "EdukateProject\\Areas\\Admin\\Views\\Course\\Update.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\Areas\\Admin\\Views\\Course\\Update.cshtml",
+              "RelativeToolTip": "EdukateProject\\Areas\\Admin\\Views\\Course\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-20T14:18:18.383Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\Areas\\Admin\\Controllers\\DashboardController.cs",
@@ -340,8 +347,7 @@
               "RelativeToolTip": "EdukateProject\\Helpers\\DbContextInitalizer.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T21:29:10.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T21:29:10.458Z"
             },
             {
               "$type": "Document",
@@ -353,21 +359,7 @@
               "RelativeToolTip": "EdukateProject\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAMwAAAAAAAAAAAAewNwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-18T19:50:20.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\Program.cs",
-              "RelativeDocumentMoniker": "EdukateProject\\Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\EdukateProject\\EdukateProject\\Program.cs",
-              "RelativeToolTip": "EdukateProject\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBkAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T19:48:07.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T19:50:20.609Z"
             },
             {
               "$type": "Document",
